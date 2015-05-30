@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="bullet">
+			<UniqueIdentifier>{5BB9BF49-B3FC-8449-9066-EB8956D1D028}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bullet\src">
+			<UniqueIdentifier>{208519D5-7AD2-9846-B927-D7B892C5FEDA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bullet\src\BulletMultiThreaded">
+			<UniqueIdentifier>{A84248B2-CA7C-A941-98EA-E6DF6D100DD5}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpu3DGridBroadphase.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpu3DGridBroadphaseSharedCode.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpu3DGridBroadphaseSharedDefs.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpu3DGridBroadphaseSharedTypes.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpuDefines.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpuUtilsSharedCode.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpuUtilsSharedDefs.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btParallelCollisionDispatcher.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btParallelConstraintSolver.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btThreading.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btThreadPool.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\HeapManager.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\PlatformDefinitions.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\PpuAddressSpace.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\TrbDynBody.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\TrbStateVec.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\vectormath2bullet.h">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\bullet\src\BulletMultiThreaded\btGpu3DGridBroadphase.cpp">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletMultiThreaded\btParallelCollisionDispatcher.cpp">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletMultiThreaded\btParallelConstraintSolver.cpp">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletMultiThreaded\btThreadPool.cpp">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletMultiThreaded\PosixThreading.cpp">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletMultiThreaded\Win32Threading.cpp">
+			<Filter>bullet\src\BulletMultiThreaded</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

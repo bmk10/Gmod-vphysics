@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0D9A8F01-7AA6-ED42-8EFF-972E100DA2E1}</ProjectGuid>
+    <RootNamespace>vphysics</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\build\bin\windows\release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">obj\Release\vphysics\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vphysics</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\build\bin\windows\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">obj\Debug\vphysics\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vphysics</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>..\..\thirdparty\sourcesdk\mp\src;..\..\thirdparty\sourcesdk\mp\src\public;..\..\thirdparty\sourcesdk\mp\src\public\tier0;..\..\thirdparty\sourcesdk\mp\src\public\tier1;..\..\bullet\src;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>RELEASE=1;NDEBUG=1;_RELEASE=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>RELEASE=1;NDEBUG=1;_RELEASE=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\thirdparty\sourcesdk\mp\src;..\..\thirdparty\sourcesdk\mp\src\public;..\..\thirdparty\sourcesdk\mp\src\public\tier0;..\..\thirdparty\sourcesdk\mp\src\public\tier1;..\..\bullet\src;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>..\..\build\bin\windows\release\BulletCollision.lib;..\..\build\bin\windows\release\BulletDynamics.lib;..\..\build\bin\windows\release\LinearMath.lib;..\..\build\bin\windows\release\BulletSoftBody.lib;..\..\build\bin\windows\release\BulletMultiThreaded.lib;tier0.lib;tier1.lib;tier2.lib;vstdlib.lib;mathlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)vphysics.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\thirdparty\sourcesdk\mp\src\lib\public;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>..\..\build\bin\windows\release\vphysics.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalOptions>/NODEFAULTLIB:"LIBCMT" %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\thirdparty\sourcesdk\mp\src;..\..\thirdparty\sourcesdk\mp\src\public;..\..\thirdparty\sourcesdk\mp\src\public\tier0;..\..\thirdparty\sourcesdk\mp\src\public\tier1;..\..\bullet\src;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\thirdparty\sourcesdk\mp\src;..\..\thirdparty\sourcesdk\mp\src\public;..\..\thirdparty\sourcesdk\mp\src\public\tier0;..\..\thirdparty\sourcesdk\mp\src\public\tier1;..\..\bullet\src;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>..\..\build\bin\windows\debug\BulletCollision.lib;..\..\build\bin\windows\debug\BulletDynamics.lib;..\..\build\bin\windows\debug\LinearMath.lib;..\..\build\bin\windows\debug\BulletSoftBody.lib;..\..\build\bin\windows\debug\BulletMultiThreaded.lib;tier0.lib;tier1.lib;tier2.lib;vstdlib.lib;mathlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)vphysics.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\thirdparty\sourcesdk\mp\src\lib\public;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDataBaseFileName>$(OutDir)vphysics.pdb</ProgramDataBaseFileName>
+      <ImportLibrary>..\..\build\bin\windows\debug\vphysics.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalOptions>/NODEFAULTLIB:"LIBCMT" %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\convert.h" />
+    <ClInclude Include="..\..\src\cw_vehicles.h" />
+    <ClInclude Include="..\..\src\DebugDrawer.h" />
+    <ClInclude Include="..\..\src\IController.h" />
+    <ClInclude Include="..\..\src\miscmath.h" />
+    <ClInclude Include="..\..\src\phydata.h" />
+    <ClInclude Include="..\..\src\Physics.h" />
+    <ClInclude Include="..\..\src\Physics_Collision.h" />
+    <ClInclude Include="..\..\src\Physics_CollisionSet.h" />
+    <ClInclude Include="..\..\src\Physics_Constraint.h" />
+    <ClInclude Include="..\..\src\Physics_DragController.h" />
+    <ClInclude Include="..\..\src\Physics_Environment.h" />
+    <ClInclude Include="..\..\src\Physics_FluidController.h" />
+    <ClInclude Include="..\..\src\Physics_FrictionSnapshot.h" />
+    <ClInclude Include="..\..\src\Physics_KeyParser.h" />
+    <ClInclude Include="..\..\src\Physics_MotionController.h" />
+    <ClInclude Include="..\..\src\Physics_Object.h" />
+    <ClInclude Include="..\..\src\Physics_ObjectPairHash.h" />
+    <ClInclude Include="..\..\src\Physics_PlayerController.h" />
+    <ClInclude Include="..\..\src\Physics_ShadowController.h" />
+    <ClInclude Include="..\..\src\Physics_SoftBody.h" />
+    <ClInclude Include="..\..\src\Physics_SurfaceProps.h" />
+    <ClInclude Include="..\..\src\Physics_Tank.h" />
+    <ClInclude Include="..\..\src\Physics_VehicleAirboat.h" />
+    <ClInclude Include="..\..\src\Physics_VehicleController.h" />
+    <ClInclude Include="..\..\src\Physics_VehicleControllerCustom.h" />
+    <ClInclude Include="..\..\src\Physics_VehicleScar.h" />
+    <ClInclude Include="..\..\src\resource.h" />
+    <ClInclude Include="..\..\src\StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\DebugDrawer.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\JCar.cpp" />
+    <ClCompile Include="..\..\src\JCar2.cpp" />
+    <ClCompile Include="..\..\src\JChassis.cpp" />
+    <ClCompile Include="..\..\src\JChassis2.cpp" />
+    <ClCompile Include="..\..\src\JWheel.cpp" />
+    <ClCompile Include="..\..\src\JWheel2.cpp" />
+    <ClCompile Include="..\..\src\miscmath.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_Collision.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_CollisionSet.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_Constraint.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_DragController.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_Environment.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_FluidController.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_FrictionSnapshot.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_KeyParser.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_MotionController.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_Object.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_ObjectPairHash.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_PlayerController.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_SCarVehicleCOntroller.cpp" />
+    <ClCompile Include="..\..\src\Physics_ShadowController.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_SoftBody.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_SurfaceProps.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_Tank.cpp" />
+    <ClCompile Include="..\..\src\Physics_VehicleAirboat.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_VehicleController.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_VehicleControllerCustom.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\src\StdAfx.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

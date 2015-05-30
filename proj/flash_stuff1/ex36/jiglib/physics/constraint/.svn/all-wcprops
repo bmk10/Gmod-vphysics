@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/206/trunk/fp10/src/jiglib/physics/constraint
+END
+JConstraint.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/206/trunk/fp10/src/jiglib/physics/constraint/JConstraint.as
+END
+JConstraintMaxDistance.as
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/206/trunk/fp10/src/jiglib/physics/constraint/JConstraintMaxDistance.as
+END
+JConstraintWorldPoint.as
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/206/trunk/fp10/src/jiglib/physics/constraint/JConstraintWorldPoint.as
+END
+JConstraintPoint.as
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/206/trunk/fp10/src/jiglib/physics/constraint/JConstraintPoint.as
+END

@@ -216,6 +216,11 @@ void CPhysicsVehicleController::InitBullVehicle() {
 		m_pRaycaster = new CCarRaycaster(m_pEnv->GetBulletEnvironment(), this);
 	else if (m_iVehicleType == VEHICLE_TYPE_AIRBOAT_RAYCAST)
 		m_pRaycaster = new CAirboatRaycaster(m_pEnv->GetBulletEnvironment(), m_pBody->GetObject());
+
+	else if (m_iVehicleType == VEHICLE_TYPE_TANK_RAYCAST)
+		m_pRaycaster = new CTankRaycaster(m_pEnv->GetBulletEnvironment(), m_pBody->GetObject());
+	else if (m_iVehicleType == VEHICLE_TYPE_SCAR_RAYCAST)
+		m_pRaycaster = new CScarRaycaster(m_pEnv->GetBulletEnvironment(), m_pBody->GetObject());
 	else
 		Assert(0);
 

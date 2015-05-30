@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{A2A5C6B2-D91D-304F-8AF7-6E18EA038E94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Vehicles">
+      <UniqueIdentifier>{bc8691ab-e79c-4343-944c-b1a60805076c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BaseObjects">
+      <UniqueIdentifier>{a3cec82e-a033-4338-848d-cc30ee085d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controlers">
+      <UniqueIdentifier>{2578ecca-68f0-45c2-a113-b3e39ace7b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\v_physics_header">
+      <UniqueIdentifier>{d3998bcd-36b0-44f5-a1e8-c4c07b8c9f12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\convert.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DebugDrawer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\IController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\miscmath.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\phydata.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_Collision.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_CollisionSet.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_Constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_DragController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_Environment.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_FluidController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_FrictionSnapshot.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_KeyParser.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_MotionController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_Object.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_ObjectPairHash.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_PlayerController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_ShadowController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_SoftBody.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_SurfaceProps.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_VehicleAirboat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_VehicleController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_VehicleControllerCustom.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\resource.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\StdAfx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_Tank.h">
+      <Filter>src\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cw_vehicles.h">
+      <Filter>src\v_physics_header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Physics_VehicleScar.h">
+      <Filter>src\Vehicles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\DebugDrawer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\miscmath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_Collision.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_CollisionSet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_Constraint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_DragController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_Environment.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_FluidController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_FrictionSnapshot.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_KeyParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_MotionController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_Object.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_ObjectPairHash.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_PlayerController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_ShadowController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_SoftBody.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_SurfaceProps.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_VehicleAirboat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_VehicleController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_VehicleControllerCustom.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\StdAfx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_Tank.cpp">
+      <Filter>src\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Physics_SCarVehicleCOntroller.cpp">
+      <Filter>src\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\JWheel2.cpp">
+      <Filter>src\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\JWheel.cpp">
+      <Filter>src\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\JChassis2.cpp">
+      <Filter>src\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\JCar2.cpp">
+      <Filter>src\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\JChassis.cpp">
+      <Filter>src\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\JCar.cpp">
+      <Filter>src\Vehicles</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

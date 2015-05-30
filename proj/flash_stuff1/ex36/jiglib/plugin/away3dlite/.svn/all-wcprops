@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/217/trunk/fp10/src/jiglib/plugin/away3dlite
+END
+HeightMapData.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/206/trunk/fp10/src/jiglib/plugin/away3dlite/HeightMapData.as
+END
+Away3DLiteMesh.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/217/trunk/fp10/src/jiglib/plugin/away3dlite/Away3DLiteMesh.as
+END
+Away3DLitePhysics.as
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/216/trunk/fp10/src/jiglib/plugin/away3dlite/Away3DLitePhysics.as
+END
+Away3DLiteTerrain.as
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/206/trunk/fp10/src/jiglib/plugin/away3dlite/Away3DLiteTerrain.as
+END

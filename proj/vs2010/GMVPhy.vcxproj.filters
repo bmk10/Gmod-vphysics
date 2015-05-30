@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="GMVPhy">
+			<UniqueIdentifier>{7C248105-F641-3C49-9D5A-E555409F1117}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\GMVPhy\MiscFuncs.h">
+			<Filter>GMVPhy</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\GMVPhy\PhysCollision.h">
+			<Filter>GMVPhy</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\GMVPhy\PhysConstraint.h">
+			<Filter>GMVPhy</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\GMVPhy\PhysEnv.h">
+			<Filter>GMVPhy</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\GMVPhy\PhysObj.h">
+			<Filter>GMVPhy</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\GMVPhy\PhysSoftBody.h">
+			<Filter>GMVPhy</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\GMVPhy\PhysVehicle.h">
+			<Filter>GMVPhy</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\GMVPhy\main.cpp">
+			<Filter>GMVPhy</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\GMVPhy\MiscFuncs.cpp">
+			<Filter>GMVPhy</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\GMVPhy\PhysCollision.cpp">
+			<Filter>GMVPhy</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\GMVPhy\PhysConstraint.cpp">
+			<Filter>GMVPhy</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\GMVPhy\PhysEnv.cpp">
+			<Filter>GMVPhy</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\GMVPhy\PhysObj.cpp">
+			<Filter>GMVPhy</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\GMVPhy\PhysSoftBody.cpp">
+			<Filter>GMVPhy</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\GMVPhy\PhysVehicle.cpp">
+			<Filter>GMVPhy</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>

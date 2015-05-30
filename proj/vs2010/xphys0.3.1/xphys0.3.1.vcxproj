@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C28AEF79-2849-4EB5-A5E1-F60691FE76D8}</ProjectGuid>
+    <RootNamespace>xphys031</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\CollisionInfo.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\CollisionSkin.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\CollisionSystem.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\CollisionSystemBrute.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\CollisionSystemGrid.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\CollisionSystemSAP.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\BoxBox.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\BoxHeightmap.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\BoxPlane.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\BoxStaticMesh.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\CapsuleBox.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\CapsuleCapsule.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\CapsuleHeightmap.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\CapsulePlane.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\CapsuleStaticMesh.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\DetectFunctor.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\SphereBox.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\SphereCapsule.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\SphereHeightmap.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\SpherePlane.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\SphereSphere.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\SphereStaticMesh.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Materials.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\JigLibX Xbox 360.csproj" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\JigLibX.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\JigLibX.csproj" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\JigLibXException.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Math\JiggleMath.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Math\Transform.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\Body.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\Constraint.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\ConstraintMaxDistance.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\ConstraintPoint.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\ConstraintVelocity.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\ConstraintWorldPoint.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\Controller.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\HingeJoint.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\Joint.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\PhysicsCollision.cs" />
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\PhysicsSystem.cs" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

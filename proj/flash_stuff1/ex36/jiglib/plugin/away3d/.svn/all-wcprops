@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/206/trunk/fp10/src/jiglib/plugin/away3d
+END
+Away3DTerrain.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/206/trunk/fp10/src/jiglib/plugin/away3d/Away3DTerrain.as
+END
+Away3dMesh.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/206/trunk/fp10/src/jiglib/plugin/away3d/Away3dMesh.as
+END
+Away3DPhysics.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/206/trunk/fp10/src/jiglib/plugin/away3d/Away3DPhysics.as
+END

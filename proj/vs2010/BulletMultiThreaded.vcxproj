@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug|Win32">
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{E826C596-4860-174F-93ED-44A7BB11B60A}</ProjectGuid>
+		<RootNamespace>BulletMultiThreaded</RootNamespace>
+		<Keyword>Win32Proj</Keyword>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>StaticLibrary</ConfigurationType>
+		<CharacterSet>MultiByte</CharacterSet>
+		<WholeProgramOptimization>true</WholeProgramOptimization>
+		<UseDebugLibraries>false</UseDebugLibraries>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+		<ConfigurationType>StaticLibrary</ConfigurationType>
+		<CharacterSet>MultiByte</CharacterSet>
+		<UseDebugLibraries>true</UseDebugLibraries>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings">
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros" />
+	<PropertyGroup>
+		<_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+		<OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\build\bin\windows\release\</OutDir>
+		<IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">obj\Release\BulletMultiThreaded\</IntDir>
+		<TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">BulletMultiThreaded</TargetName>
+		<OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\build\bin\windows\debug\</OutDir>
+		<IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">obj\Debug\BulletMultiThreaded\</IntDir>
+		<TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BulletMultiThreaded</TargetName>
+	</PropertyGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<ClCompile>
+			<AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+			<Optimization>MaxSpeed</Optimization>
+			<AdditionalIncludeDirectories>..\..\bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>RELEASE=1;NDEBUG=1;_RELEASE=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<MinimalRebuild>false</MinimalRebuild>
+			<StringPooling>true</StringPooling>
+			<RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+			<FunctionLevelLinking>true</FunctionLevelLinking>
+			<PrecompiledHeader></PrecompiledHeader>
+			<WarningLevel>Level3</WarningLevel>
+			<EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+			<FloatingPointModel>Fast</FloatingPointModel>
+			<DebugInformationFormat></DebugInformationFormat>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>RELEASE=1;NDEBUG=1;_RELEASE=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>..\..\bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ResourceCompile>
+	<Lib>
+		<OutputFile>$(OutDir)BulletMultiThreaded.lib</OutputFile>
+	</Lib>
+		<Link>
+			<SubSystem>Windows</SubSystem>
+			<GenerateDebugInformation>false</GenerateDebugInformation>
+			<OptimizeReferences>true</OptimizeReferences>
+			<EnableCOMDATFolding>true</EnableCOMDATFolding>
+		</Link>
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<ClCompile>
+			<AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+			<Optimization>Disabled</Optimization>
+			<AdditionalIncludeDirectories>..\..\bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<MinimalRebuild>false</MinimalRebuild>
+			<BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+			<RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+			<FunctionLevelLinking>true</FunctionLevelLinking>
+			<PrecompiledHeader></PrecompiledHeader>
+			<WarningLevel>Level3</WarningLevel>
+			<FloatingPointModel>Fast</FloatingPointModel>
+			<DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+		</ClCompile>
+		<ResourceCompile>
+			<PreprocessorDefinitions>_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<AdditionalIncludeDirectories>..\..\bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+		</ResourceCompile>
+	<Lib>
+		<OutputFile>$(OutDir)BulletMultiThreaded.lib</OutputFile>
+	</Lib>
+		<Link>
+			<SubSystem>Windows</SubSystem>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<ProgramDataBaseFileName>$(OutDir)BulletMultiThreaded.pdb</ProgramDataBaseFileName>
+		</Link>
+	</ItemDefinitionGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpu3DGridBroadphase.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpu3DGridBroadphaseSharedCode.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpu3DGridBroadphaseSharedDefs.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpu3DGridBroadphaseSharedTypes.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpuDefines.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpuUtilsSharedCode.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btGpuUtilsSharedDefs.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btParallelCollisionDispatcher.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btParallelConstraintSolver.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btThreading.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\btThreadPool.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\HeapManager.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\PlatformDefinitions.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\PpuAddressSpace.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\TrbDynBody.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\TrbStateVec.h" />
+		<ClInclude Include="..\..\bullet\src\BulletMultiThreaded\vectormath2bullet.h" />
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\bullet\src\BulletMultiThreaded\btGpu3DGridBroadphase.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletMultiThreaded\btParallelCollisionDispatcher.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletMultiThreaded\btParallelConstraintSolver.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletMultiThreaded\btThreadPool.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletMultiThreaded\PosixThreading.cpp">
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletMultiThreaded\Win32Threading.cpp">
+		</ClCompile>
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

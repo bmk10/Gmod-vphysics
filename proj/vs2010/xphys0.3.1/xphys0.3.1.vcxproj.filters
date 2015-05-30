@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{83924645-e5fa-4335-85c6-0452263aeaf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision\Detection">
+      <UniqueIdentifier>{9ae1f635-2cf0-456e-bdb1-6b710fd96a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{8be0a12c-e67c-4800-932b-876524a0b371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{87c1eb97-ce83-492f-841a-f12589ef4f51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\JigLibX Xbox 360.csproj">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\JigLibX.cs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\JigLibX.csproj">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\JigLibXException.cs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\CollisionInfo.cs">
+      <Filter>Source Files\Collision</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\CollisionSkin.cs">
+      <Filter>Source Files\Collision</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\CollisionSystem.cs">
+      <Filter>Source Files\Collision</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\CollisionSystemBrute.cs">
+      <Filter>Source Files\Collision</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\CollisionSystemGrid.cs">
+      <Filter>Source Files\Collision</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\CollisionSystemSAP.cs">
+      <Filter>Source Files\Collision</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Materials.cs">
+      <Filter>Source Files\Collision</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\BoxBox.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\BoxHeightmap.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\BoxPlane.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\BoxStaticMesh.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\CapsuleBox.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\CapsuleCapsule.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\CapsuleHeightmap.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\CapsulePlane.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\CapsuleStaticMesh.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\DetectFunctor.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\SphereBox.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\SphereCapsule.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\SphereHeightmap.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\SpherePlane.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\SphereSphere.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Collision\Detection\SphereStaticMesh.cs">
+      <Filter>Source Files\Collision\Detection</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\Body.cs">
+      <Filter>Source Files\Physics</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\Constraint.cs">
+      <Filter>Source Files\Physics</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\ConstraintMaxDistance.cs">
+      <Filter>Source Files\Physics</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\ConstraintPoint.cs">
+      <Filter>Source Files\Physics</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\ConstraintVelocity.cs">
+      <Filter>Source Files\Physics</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\ConstraintWorldPoint.cs">
+      <Filter>Source Files\Physics</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\Controller.cs">
+      <Filter>Source Files\Physics</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\HingeJoint.cs">
+      <Filter>Source Files\Physics</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\Joint.cs">
+      <Filter>Source Files\Physics</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\PhysicsCollision.cs">
+      <Filter>Source Files\Physics</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Physics\PhysicsSystem.cs">
+      <Filter>Source Files\Physics</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Math\JiggleMath.cs">
+      <Filter>Source Files\Math</Filter>
+    </None>
+    <None Include="..\..\..\lib\JigLibX 0.3.1\JigLibX 0.3.1\JigLibX\Math\Transform.cs">
+      <Filter>Source Files\Math</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="bullet">
+			<UniqueIdentifier>{6DEBFA30-869A-F14F-8819-07DE3A72C098}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bullet\src">
+			<UniqueIdentifier>{29FD33EB-E563-A64A-8910-066E2FDB5C5A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bullet\src\BulletDynamics">
+			<UniqueIdentifier>{60F2CE5F-D3CF-F046-8FF8-703C34FAFCCC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bullet\src\BulletDynamics\Character">
+			<UniqueIdentifier>{34F37D71-563B-E845-9A8A-3C12D516A3DA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bullet\src\BulletDynamics\ConstraintSolver">
+			<UniqueIdentifier>{8EA1C263-7CF8-3C40-AFFD-B1C69B951956}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bullet\src\BulletDynamics\Dynamics">
+			<UniqueIdentifier>{E06854FA-A0B8-2543-B942-9DDF77284736}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bullet\src\BulletDynamics\Featherstone">
+			<UniqueIdentifier>{8F0AD24E-7003-FB46-A95D-245E1422180C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bullet\src\BulletDynamics\MLCPSolvers">
+			<UniqueIdentifier>{907E1888-E7D7-7547-948B-B87CD35AE9E8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="bullet\src\BulletDynamics\Vehicle">
+			<UniqueIdentifier>{300C7E96-B5E7-D141-A430-FC6F49E9EA9D}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Character\btCharacterControllerInterface.h">
+			<Filter>bullet\src\BulletDynamics\Character</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Character\btKinematicCharacterController.h">
+			<Filter>bullet\src\BulletDynamics\Character</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btConstraintSolver.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btContactConstraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btContactSolverInfo.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btFixedConstraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btGearConstraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btHinge2Constraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btHingeConstraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btJacobianEntry.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btSliderConstraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btSolverBody.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btSolverConstraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btTypedConstraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btUniversalConstraint.h">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Dynamics\btActionInterface.h">
+			<Filter>bullet\src\BulletDynamics\Dynamics</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.h">
+			<Filter>bullet\src\BulletDynamics\Dynamics</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Dynamics\btDynamicsWorld.h">
+			<Filter>bullet\src\BulletDynamics\Dynamics</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Dynamics\btRigidBody.h">
+			<Filter>bullet\src\BulletDynamics\Dynamics</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Dynamics\btSimpleDynamicsWorld.h">
+			<Filter>bullet\src\BulletDynamics\Dynamics</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBody.h">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyConstraint.h">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.h">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.h">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.h">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyJointMotor.h">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyLink.h">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyLinkCollider.h">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyPoint2Point.h">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodySolverConstraint.h">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\MLCPSolvers\btDantzigLCP.h">
+			<Filter>bullet\src\BulletDynamics\MLCPSolvers</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\MLCPSolvers\btDantzigSolver.h">
+			<Filter>bullet\src\BulletDynamics\MLCPSolvers</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.h">
+			<Filter>bullet\src\BulletDynamics\MLCPSolvers</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\MLCPSolvers\btLemkeSolver.h">
+			<Filter>bullet\src\BulletDynamics\MLCPSolvers</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\MLCPSolvers\btMLCPSolver.h">
+			<Filter>bullet\src\BulletDynamics\MLCPSolvers</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\MLCPSolvers\btMLCPSolverInterface.h">
+			<Filter>bullet\src\BulletDynamics\MLCPSolvers</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\MLCPSolvers\btPATHSolver.h">
+			<Filter>bullet\src\BulletDynamics\MLCPSolvers</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\MLCPSolvers\btSolveProjectedGaussSeidel.h">
+			<Filter>bullet\src\BulletDynamics\MLCPSolvers</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Vehicle\btRaycastVehicle.h">
+			<Filter>bullet\src\BulletDynamics\Vehicle</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Vehicle\btVehicleRaycaster.h">
+			<Filter>bullet\src\BulletDynamics\Vehicle</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Vehicle\btWheeledVehicle.h">
+			<Filter>bullet\src\BulletDynamics\Vehicle</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\bullet\src\BulletDynamics\Vehicle\btWheelInfo.h">
+			<Filter>bullet\src\BulletDynamics\Vehicle</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Character\btKinematicCharacterController.cpp">
+			<Filter>bullet\src\BulletDynamics\Character</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btContactConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btGearConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\ConstraintSolver</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp">
+			<Filter>bullet\src\BulletDynamics\Dynamics</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Dynamics\btRigidBody.cpp">
+			<Filter>bullet\src\BulletDynamics\Dynamics</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp">
+			<Filter>bullet\src\BulletDynamics\Dynamics</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Dynamics\Bullet-C-API.cpp">
+			<Filter>bullet\src\BulletDynamics\Dynamics</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBody.cpp">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp">
+			<Filter>bullet\src\BulletDynamics\Featherstone</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp">
+			<Filter>bullet\src\BulletDynamics\MLCPSolvers</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp">
+			<Filter>bullet\src\BulletDynamics\MLCPSolvers</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp">
+			<Filter>bullet\src\BulletDynamics\MLCPSolvers</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Vehicle\btRaycastVehicle.cpp">
+			<Filter>bullet\src\BulletDynamics\Vehicle</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Vehicle\btWheeledVehicle.cpp">
+			<Filter>bullet\src\BulletDynamics\Vehicle</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\bullet\src\BulletDynamics\Vehicle\btWheelInfo.cpp">
+			<Filter>bullet\src\BulletDynamics\Vehicle</Filter>
+		</ClCompile>
+	</ItemGroup>
+</Project>
